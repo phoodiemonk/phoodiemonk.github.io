@@ -1,8 +1,8 @@
 :root {
     --primary-bg: #f9f6f0;
-    --text-dark: #2c2f2a;
-    --text-light: #5a5f56;
-    --accent: #d2691e;
+    --text-dark: #2A1A1A;
+    --text-light: #6A5A5A;
+    --accent: #8A3340;
     --glass-bg: rgba(255, 255, 255, 0.4);
     --glass-border: rgba(255, 255, 255, 0.8);
     --glass-shadow: rgba(0, 0, 0, 0.05);
@@ -20,8 +20,8 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background-image: 
-        radial-gradient(circle at 10% 20%, rgba(210, 105, 30, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 90% 80%, rgba(90, 95, 86, 0.05) 0%, transparent 40%);
+        radial-gradient(circle at 10% 20%, rgba(138, 51, 64, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(106, 90, 90, 0.05) 0%, transparent 40%);
     min-height: 100vh;
 }
 
@@ -124,7 +124,7 @@ h1, h2, h3, .logo {
 }
 
 .dropdown-content a:hover {
-    background: rgba(210, 105, 30, 0.1);
+    background: rgba(138, 51, 64, 0.1);
     color: var(--accent);
 }
 
@@ -278,13 +278,13 @@ h1, h2, h3, .logo {
 .btn-primary {
     background-color: var(--accent);
     color: #fff;
-    box-shadow: 0 10px 20px rgba(210, 105, 30, 0.2);
+    box-shadow: 0 10px 20px rgba(138, 51, 64, 0.2);
 }
 
 .btn-primary:hover {
-    background-color: #ba5714;
+    background-color: #6a2531;
     transform: translateY(-3px);
-    box-shadow: 0 15px 25px rgba(210, 105, 30, 0.3);
+    box-shadow: 0 15px 25px rgba(138, 51, 64, 0.3);
 }
 
 @keyframes fadeIn {
